@@ -1,0 +1,111 @@
+html {
+  overflow-y: scroll;
+
+  --game-spacing: 32px;
+  --header-height: 4rem;
+
+  --color-primary: hsl(0, 0%, 75%);
+  --color-secondary: hsl(0, 0%, 50%);
+  --color-secondary: hsl(0, 0%, 25%);
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+#root {
+  display: grid;
+  grid-template-rows: 10% repeat(6, 1fr) 10%;
+}
+header {
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25%;
+  background-color: var(--color-primary);
+}
+
+main {
+  grid-row: 2/8;
+  border: 1px solid black;
+}
+
+img {
+  width: 50px;
+}
+
+.edit-button {
+  font-size: 0.7rem;
+  padding: 0;
+}
+
+.input-result {
+  display: flex;
+}
+
+.section-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  margin: 10px;
+}
+
+.subsection-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-wrapper {
+  border: 1px solid yellow;
+  width: 40%;
+  min-width: 300px;
+  max-width: 400px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-wrapper button {
+  cursor: pointer;
+  width: max-content;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  text-align: center;
+  background-color: rgb(134, 197, 219);
+}
+
+.language-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+span,
+label {
+  cursor: pointer;
+}
+
+span,
+label:hover {
+  color: lightslategray;
+}
+
+span,
+label:active {
+  scale: 0.9;
+}
