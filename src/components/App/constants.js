@@ -1,9 +1,9 @@
-import helmet from '../../../public/img/helmet-1.png';
-import shield from '../../../public/img/shield-1.png';
-import scroll from '../../../public/img/scroll-1.png';
-import sword from '../../../public/img/sword-1.png';
-import potion from '../../../public/img/potion-1.png';
-import ring from '../../../public/img/ring-1.png';
+import helmet from '../../../public/img/helmet.svg';
+import shield from '../../../public/img/shield.svg';
+import scroll from '../../../public/img/scroll.svg';
+import sword from '../../../public/img/sword.svg';
+import potion from '../../../public/img/potion.svg';
+import ring from '../../../public/img/ring.svg';
 
 export const cardImages = [
   { src: helmet },

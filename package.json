@@ -20,5 +20,7 @@
     "new-component": "new-component"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "devDependencies": {}
+  "devDependencies": {
+    "@testing-library/react": "^14.2.2"
+  }
 }
